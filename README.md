@@ -117,13 +117,13 @@ To run a basic PID controller in the virtual environment:
 
 ```bash
 # Using rosrun for the standard PID controller
-rosrun control_bot pid_normal.py
+rosrun <package_name> pid_normal.py
 
 # For other controller types
-rosrun control_bot pid_fractional.py
-rosrun control_bot pid_adaptive_fractional.py
-rosrun control_bot pid_nonlinear_fractional.py
-rosrun control_bot pid_time_delay_fractional.py
+rosrun <package_name> pid_fractional.py
+rosrun <package_name> pid_adaptive_fractional.py
+rosrun <package_name> pid_nonlinear_fractional.py
+rosrun <package_name> pid_time_delay_fractional.py
 ```
 
 ### Running Different Trajectory Types
@@ -132,21 +132,21 @@ rosrun control_bot pid_time_delay_fractional.py
 
 ```bash
 # Launch the virtual robot with a linear trajectory using normal PID
-rosrun control_bot virtual_robot.py --controller_type normal --final_position 1.0,0.0 --output_dir results/virtual/line
+rosrun <package_name> virtual_robot.py --controller_type normal --final_position 1.0,0.0 --output_dir results/virtual/line
 ```
 
 #### Square Trajectory
 
 ```bash
 # Launch the virtual robot with a square trajectory using normal PID
-rosrun control_bot virtual_robot.py --controller_type normal --side_length 1.0 --output_dir results/virtual/square
+rosrun <package_name> virtual_robot.py --controller_type normal --side_length 1.0 --output_dir results/virtual/square
 ```
 
 #### Elliptical Trajectory
 
 ```bash
 # Launch the virtual robot with an elliptical trajectory using normal PID
-rosrun control_bot virtual_robot.py --controller_type normal --a 1.0 --b 0.5 --output_dir results/virtual/ellipse
+rosrun <package_name> virtual_robot.py --controller_type normal --a 1.0 --b 0.5 --output_dir results/virtual/ellipse
 ```
 
 ### Running with Real TurtleBot3
@@ -162,7 +162,7 @@ Then, on your workstation:
 
 ```bash
 # For basic PID control on real hardware
-rosrun control_bot real_robot.py --controller_type normal --final_position 1.0,0.0
+rosrun <package_name> real_robot.py --controller_type normal --final_position 1.0,0.0
 ```
 
 ### Visualization in RViz
@@ -170,7 +170,7 @@ rosrun control_bot real_robot.py --controller_type normal --final_position 1.0,0
 To visualize the robot's trajectory and sensor data:
 
 ```bash
-roslaunch control_bot display_map.launch
+roslaunch <package_name> display_map.launch
 ```
 
 ### Reinforcement Learning
@@ -178,7 +178,7 @@ roslaunch control_bot display_map.launch
 To train a reinforcement learning model for trajectory control:
 
 ```bash
-rosrun control_bot botrl.py
+rosrun <package_name> botrl.py
 ```
 
 ### Running Analysis Tools
@@ -187,16 +187,16 @@ The project includes comprehensive analysis tools for evaluating controller perf
 
 ```bash
 # Analyze linear trajectory performance
-rosrun control_bot analyze_line_trajectory.py
+rosrun <package_name> analyze_line_trajectory.py
 
 # Analyze square trajectory performance
-rosrun control_bot analyze_square_trajectory.py
+rosrun <package_name> analyze_square_trajectory.py
 
 # Analyze elliptical trajectory performance
-rosrun control_bot analyze_ellipse_trajectory.py
+rosrun <package_name> analyze_ellipse_trajectory.py
 
 # Calculate performance scores across controllers
-rosrun control_bot calculate_scores.py
+rosrun <package_name> calculate_scores.py
 ```
 
 ## Features
