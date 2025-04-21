@@ -1,0 +1,12 @@
+0,1,2,3,4,5
+group1,group2,meandiff,lower,upper,reject
+Adaptive Fractional PID,Fractional PID,0.0017,-0.0073,0.0106,False
+Adaptive Fractional PID,Non-Linear Sigmoid Fractional PID,0.0591,0.0501,0.068,True
+Adaptive Fractional PID,PID,0.0008,-0.0082,0.0097,False
+Adaptive Fractional PID,Time Delay Fractional PID,0.002,-0.0069,0.0109,False
+Fractional PID,Non-Linear Sigmoid Fractional PID,0.0574,0.0485,0.0663,True
+Fractional PID,PID,-0.0009,-0.0098,0.008,False
+Fractional PID,Time Delay Fractional PID,0.0003,-0.0086,0.0093,False
+Non-Linear Sigmoid Fractional PID,PID,-0.0583,-0.0672,-0.0494,True
+Non-Linear Sigmoid Fractional PID,Time Delay Fractional PID,-0.0571,-0.066,-0.0481,True
+PID,Time Delay Fractional PID,0.0012,-0.0077,0.0102,False
