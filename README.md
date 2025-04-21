@@ -206,10 +206,8 @@ rosrun <package_name> calculate_scores.py
 - Virtual (simulated) and real robot implementations
 - Comprehensive analysis tools for performance evaluation
 
-## License
+## Copyright Notice
 
-MIT License
+Copyright © 2023. All Rights Reserved.
 
-## Author
-
-[Harshul-18](https://github.com/Harshul-18)
+This project is provided for portfolio and demonstration purposes only. 
