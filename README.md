@@ -8,12 +8,11 @@ A comprehensive ROS-based project for trajectory planning, control, and navigati
 
 This project includes a suite of tools for controlling TurtleBot3 robots along different trajectory types (linear, square, elliptical) using various control algorithms:
 
-- **Classic PID Controllers**
+- **Standard PID Controllers**
 - **Fractional PID Controllers**
 - **Adaptive PID Controllers**
 - **Nonlinear PID Controllers**
 - **Time-Delay PID Controllers**
-- **Reinforcement Learning Approaches**
 
 The project supports both simulated environments (in Gazebo) and real-world TurtleBot3 robots.
 
@@ -205,9 +204,7 @@ rosrun control_bot calculate_scores.py
 - Multiple PID controller implementations (Classic, Fractional, Adaptive, etc.)
 - Support for different trajectory types (Linear, Square, Elliptical)
 - Virtual (simulated) and real robot implementations
-- Reinforcement learning approaches for robot control
 - Comprehensive analysis tools for performance evaluation
-- RViz configuration for visualization
 
 ## License
 
