@@ -2,7 +2,9 @@
 
 A comprehensive ROS-based project for trajectory planning, control, and navigation of TurtleBot3 robots in both simulated and real environments. This repository contains implementations of various PID controller types and machine learning approaches for robot trajectory manipulation and obstacle avoidance.
 
-![Turtlebot Trajectory Control](Turtlebot%20Trajectory%20Control.png)
+![Turtlebot Trajectory Control](assets/Turtlebot_Trajectory_Control.png)
+
+![Obstacle Avoidance](assets/Obstacle%20Avoidance.png)
 
 ## Overview
 
@@ -12,9 +14,11 @@ This project includes a suite of tools for controlling TurtleBot3 robots along d
 - **Fractional PID Controllers**
 - **Adaptive PID Controllers**
 - **Nonlinear PID Controllers**
-- **Time-Delay PID Controllers**
+<!-- - **Time-Delay PID Controllers** -->
 
 The project supports both simulated environments (in Gazebo) and real-world TurtleBot3 robots.
+
+![Physical Robot](assets/Physical_Bot.png)
 
 ## Repository Structure
 
@@ -63,6 +67,8 @@ gym
 ```
 
 ## Installation
+
+![Working Schema](assets/Working_Schema.png)
 
 1. Clone this repository into your catkin workspace's `src` directory:
 
