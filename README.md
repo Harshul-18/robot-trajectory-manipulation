@@ -208,6 +208,6 @@ rosrun <package_name> calculate_scores.py
 
 ## Copyright Notice
 
-Copyright © 2023. All Rights Reserved.
+Copyright © 2025. All Rights Reserved.
 
 This project is provided for portfolio and demonstration purposes only. 
